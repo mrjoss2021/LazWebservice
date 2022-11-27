@@ -1,0 +1,179 @@
+object Form1: TForm1
+  Left = 272
+  Height = 434
+  Top = 196
+  Width = 526
+  Caption = 'Form1'
+  ClientHeight = 434
+  ClientWidth = 526
+  OnCreate = FormCreate
+  LCLVersion = '1.1'
+  object Panel1: TPanel
+    Left = 0
+    Height = 50
+    Top = 248
+    Width = 526
+    Align = alTop
+    ClientHeight = 50
+    ClientWidth = 526
+    TabOrder = 0
+    object BitBtn1: TBitBtn
+      Left = 32
+      Height = 30
+      Top = 9
+      Width = 75
+      Caption = 'Load Data'
+      OnClick = BitBtn1Click
+      TabOrder = 0
+    end
+    object BitBtn2: TBitBtn
+      Left = 112
+      Height = 30
+      Top = 9
+      Width = 75
+      Caption = 'Isi'
+      OnClick = BitBtn2Click
+      TabOrder = 1
+    end
+    object BitBtn3: TBitBtn
+      Left = 192
+      Height = 30
+      Top = 9
+      Width = 75
+      Caption = 'Edit'
+      OnClick = BitBtn3Click
+      TabOrder = 2
+    end
+    object BitBtn4: TBitBtn
+      Left = 272
+      Height = 30
+      Top = 9
+      Width = 75
+      Caption = 'Hapus'
+      OnClick = BitBtn4Click
+      TabOrder = 3
+    end
+  end
+  object GroupBox1: TGroupBox
+    Left = 0
+    Height = 248
+    Top = 0
+    Width = 526
+    Align = alTop
+    Caption = 'Webservice Ala Semar IDE'
+    ClientHeight = 230
+    ClientWidth = 522
+    TabOrder = 1
+    object Memo2: TMemo
+      Left = 0
+      Height = 74
+      Top = 156
+      Width = 522
+      Align = alBottom
+      Lines.Strings = (
+        'Memo1'
+      )
+      TabOrder = 0
+    end
+    object Edit1: TEdit
+      Left = 222
+      Height = 23
+      Top = 8
+      Width = 130
+      TabOrder = 1
+      Text = 'Edit1'
+    end
+    object Edit2: TEdit
+      Left = 222
+      Height = 23
+      Top = 37
+      Width = 130
+      TabOrder = 2
+      Text = 'Edit2'
+    end
+    object Edit3: TEdit
+      Left = 222
+      Height = 23
+      Top = 66
+      Width = 130
+      TabOrder = 3
+      Text = 'Edit3'
+    end
+    object Edit4: TEdit
+      Left = 222
+      Height = 23
+      Top = 95
+      Width = 130
+      TabOrder = 4
+      Text = 'Edit4'
+    end
+    object Edit5: TEdit
+      Left = 222
+      Height = 23
+      Top = 124
+      Width = 130
+      TabOrder = 5
+      Text = 'Edit5'
+    end
+    object Label1: TLabel
+      Left = 143
+      Height = 15
+      Top = 13
+      Width = 73
+      Caption = 'Kode Supplier'
+      ParentColor = False
+    end
+    object Label2: TLabel
+      Left = 142
+      Height = 15
+      Top = 42
+      Width = 78
+      Caption = 'Nama Supplier'
+      ParentColor = False
+    end
+    object Label3: TLabel
+      Left = 145
+      Height = 15
+      Top = 67
+      Width = 38
+      Caption = 'Alamat'
+      ParentColor = False
+    end
+    object Label4: TLabel
+      Left = 147
+      Height = 15
+      Top = 94
+      Width = 62
+      Caption = 'No. telepon'
+      ParentColor = False
+    end
+    object Label5: TLabel
+      Left = 144
+      Height = 15
+      Top = 125
+      Width = 61
+      Caption = 'Perusahaan'
+      ParentColor = False
+    end
+  end
+  object GroupBox2: TGroupBox
+    Left = 0
+    Height = 136
+    Top = 298
+    Width = 526
+    Align = alClient
+    Caption = 'Data'
+    ClientHeight = 118
+    ClientWidth = 522
+    TabOrder = 2
+    object StringGrid1: TStringGrid
+      Left = 0
+      Height = 118
+      Top = 0
+      Width = 522
+      Align = alClient
+      TabOrder = 0
+      OnClick = StringGrid1Click
+    end
+  end
+end
